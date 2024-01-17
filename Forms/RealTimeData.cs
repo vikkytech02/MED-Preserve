@@ -827,7 +827,7 @@ namespace Med_Preserve.Forms
             {
                 if (serialPort.IsOpen)
                 {
-                    serialPort.Close();
+                    serialPort.Close(); //Starting to update the Graph 
                 }
             }
         }
