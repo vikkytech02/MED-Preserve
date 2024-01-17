@@ -152,7 +152,6 @@ namespace Med_Preserve.Forms
                                     tb_Time.Text = time.ToString(@"hh\:mm\:ss");
                                     tb_Date.Text = date.ToString("yyyy/MM/dd");
                                 }));
-
                             }
                             else if (SensorCount == "2")
                             {
@@ -545,7 +544,6 @@ namespace Med_Preserve.Forms
                 }
             }
         }
-
         private void cmb_LogName_TextChanged(object sender, EventArgs e)
         {
             string logName = cmb_LogName.Text;
@@ -764,7 +762,6 @@ namespace Med_Preserve.Forms
             }
             cartesianHumi.Update();
         }
-
         private void UpdateYaxis(double minValueTemp, double maxValueTemp, double minValueHumi, double maxValueHumi)
         {
             try
@@ -824,7 +821,6 @@ namespace Med_Preserve.Forms
             }
 
         }
-
         private void RealTimeData_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (selectedComPort != null)
