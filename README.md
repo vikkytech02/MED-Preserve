@@ -41,7 +41,7 @@ This repository contains the code and documentation for the **Med Preserve Proje
 
 3. **Running the Project:**  
    - Deploy the `MedPreserveApp` from Visual Studio.
-   - Load and run the Arduino sketch `LoggerConfig.ino` on Arduino Mega.
+   - Load and run the Arduino sketch `LoggerConfig.ino` on Arduino Mega. [Hardware Code](https://github.com/vikkytech02/Temperature-Data-Logger-Arduino)
 
 ## Software Features
 - **User Management:** Add, update, delete, and restore users with role-based access.
